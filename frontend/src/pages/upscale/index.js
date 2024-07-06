@@ -2,16 +2,16 @@ import React from "react";
 import Navbar from "./Components/navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from "./Style/index.css"
-import OptionComponent from "./Components/options";
+import UpscaleComponent from "./Components/upscale";
 
-function Jobs() {
+function Upscale() {
     return (
       <div className={styles.container}>
         <Navbar/> 
         {/* <OptionComponent/> */}
-        <OptionComponent/>
+        <UpscaleComponent/>
       </div>
     );
   }
   
-  export default Jobs;
+  export default Upscale;

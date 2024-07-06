@@ -10,6 +10,18 @@
     border-radius: 8px;
 
   }
+  .imageContainer {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto; /* Center the image container */
+  }
+  
+  .imageContainer img {
+    width: 30;
+    height: auto;
+    display: block;
+  }
   
   /* Lightest Blue */
   .whatIs {

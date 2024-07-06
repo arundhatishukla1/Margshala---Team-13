@@ -10,6 +10,7 @@ import DairyFarmingContent from "./pages/study";
 import NatureGuideContent from "./pages/nature/nature";
 import PineNeedleGasificationContent from "./pages/renewable/renewable";
 import EcoTourismContent from "./pages/ecohome/house";
+import Upscale from "./pages/upscale";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/nature" element={<NatureGuideContent />} />
           <Route path="/renewable" element={<PineNeedleGasificationContent />} />
           <Route path="/ecohouse" element={<EcoTourismContent />} />
+          <Route path = "/upscale" element={<Upscale />}/>
         </Routes>
       </Router>
     </div>
